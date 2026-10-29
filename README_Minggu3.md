@@ -90,3 +90,22 @@ Controller untuk latihan dasar routing dan passing data ke view.
 ---
 
 ## 📁 Struktur Folder
+project-laravel/
+├── app/
+│ ├── Http/
+│ │ └── Controllers/
+│ │ ├── KegiatanController.php
+│ │ └── SapaController.php
+│ └── Models/
+│ └── KegiatanModel.php
+├── resources/
+│ └── views/
+│ ├── partials/
+│ │ ├── header.blade.php
+│ │ └── footer.blade.php
+│ ├── kegiatan/
+│ │ ├── index.blade.php
+│ │ └── detail.blade.php
+│ └── sapa.blade.php
+└── routes/
+└── web.php
